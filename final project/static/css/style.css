@@ -1,0 +1,109 @@
+.name{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+   ul li{
+       display: inline;
+   }
+   ul li a{
+       text-decoration: none;
+       color: white;
+       padding: 5px 20px;
+       border: 1px solid white;
+   }
+   ul li a:hover{
+       background-color: white;
+       color: black;
+   }
+  .main{
+      position:absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .main h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.enjoy{
+     position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%,-50%);
+   
+}
+.enjoy li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.man{
+    position:absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+}
+.man h4{
+  color: white;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sub{
+    position:absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-60%,-50%);
+   color:red;
+  
+}
+.run{
+    position:absolute;
+   top: 110%;
+   left: 80%;
+   transform: translate(-110%,-80%);
+}
+.run a{
+   font-size: 18px;
+   color: white;
+}
+.dhy{
+    position:absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+}
+.dhy h2{
+  color: white;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ran{
+    position:absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-60%,-50%);
+   color: white;
+}
+.res{
+    list-style: none;
+}
+.flo{
+    float: left;
+}
+.img{
+    left: 200%;
+    top: 9%;
+}
+.border{
+    border: 1px solid black;
+    padding: 15px;
+    border: 5px;
+}
